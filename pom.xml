@@ -25,7 +25,7 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:git:https://code.google.com/p/appengine-maven-plugin/</connection>
+        <connection>scm:git:git@github.com:ArcBees/appengine-maven-plugin.git</connection>
       <tag>HEAD</tag>
   </scm>
 
@@ -69,7 +69,7 @@
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/google-snapshots/</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
