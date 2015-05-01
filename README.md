@@ -16,16 +16,16 @@ To use it, you will need to build and host the plugin in your repository and con
 
 And put a settings section in your Maven ~/.m2/settings.xml
 
-  <settings>
-    <servers>
-      <server>
-        <id>appengine.google.com</id>
-        <username>your.email@domain.com</username>
-        <password>yourpassword</password>
-      </server>
-    </servers>
-  </settings>
+	<settings>
+		<servers>
+			<server>
+				<id>appengine.google.com</id>
+				<username>your.email@domain.com</username>
+				<password>yourpassword</password>
+			</server>
+		</servers>
+	</settings>
 
 Deploy (you'll need to use the FQM of the plugin):
 
-  mvn com.arcbees.appengine:appengine-maven-plugin:update
+	mvn com.arcbees.appengine:appengine-maven-plugin:update
